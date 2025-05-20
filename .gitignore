@@ -179,3 +179,5 @@ cython_debug/
 *.bbl
 *.synctex*
 *.out
+*.blg
+.DS_Store
