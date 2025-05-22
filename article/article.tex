@@ -140,7 +140,7 @@ A transformação de perspectiva foi aplicada a uma imagem de exemplo, resultand
   \centering
   \begin{subfigure}[b]{0.45\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{resources/input1.jpg}
+    \includegraphics[width=\linewidth]{../resources/input1.jpg}
     \caption{Imagem original}
     \Description{Imagem original capturada em um ângulo reto.}
     \label{fig:one}
@@ -148,7 +148,7 @@ A transformação de perspectiva foi aplicada a uma imagem de exemplo, resultand
   \hfill
   \begin{subfigure}[b]{0.45\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{resources/output1.jpg}
+    \includegraphics[width=\linewidth]{../resources/output1.jpg}
     \caption{Imagem transformada}
     \Description{Imagem transformada com uma perspectiva inclinada.}
     \label{fig:two}
@@ -157,7 +157,7 @@ A transformação de perspectiva foi aplicada a uma imagem de exemplo, resultand
   \centering
   \begin{subfigure}[b]{0.45\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{resources/input2.jpg}
+    \includegraphics[width=\linewidth]{../resources/input2.jpg}
     \caption{Imagem original}
     \Description{Imagem original capturada em um ângulo reto.}
     \label{fig:three}
@@ -165,7 +165,7 @@ A transformação de perspectiva foi aplicada a uma imagem de exemplo, resultand
   \hfill
   \begin{subfigure}[b]{0.45\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{resources/output2.jpg}
+    \includegraphics[width=\linewidth]{../resources/output2.jpg}
     \caption{Imagem transformada}
     \Description{Imagem transformada com uma perspectiva inclinada.}
     \label{fig:four}
@@ -183,6 +183,11 @@ A figura \ref{fig:resultados} mostra a imagem original e a imagem transformada. 
 
 \section{Conclusão}
 
+Neste trabalho, foi apresentada a implementação de uma transformação de perspectiva utilizando a biblioteca OpenCV, demonstrando a aplicação prática de conceitos fundamentais de visão computacional. Através da definição de pontos de origem e destino, foi possível calcular a matriz de homografia e realizar a manipulação geométrica das imagens, evidenciando a versatilidade e a eficiência do método.
+
+Os resultados obtidos confirmam a eficácia da abordagem proposta, permitindo a alteração do ponto de vista das imagens de maneira precisa e controlada. Essa técnica possui ampla aplicabilidade em áreas como reconstrução tridimensional, realidade aumentada e robótica, destacando-se como uma ferramenta essencial para o desenvolvimento de soluções avançadas em visão computacional.
+
+Como trabalhos futuros, sugere-se a exploração de métodos automáticos para a seleção dos pontos de correspondência, bem como a integração da transformação de perspectiva em sistemas mais complexos, visando aprimorar a robustez e a autonomia das aplicações desenvolvidas.
 
 \bibliography{references}
 
